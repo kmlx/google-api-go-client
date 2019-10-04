@@ -6699,7 +6699,7 @@ type MonitorStreamInfo struct {
 	//
 	// Note: This property cannot be updated once the broadcast is in the
 	// testing or live state.
-	EnableMonitorStream bool `json:"enableMonitorStream,omitempty"`
+	EnableMonitorStream *bool `json:"enableMonitorStream,omitempty"`
 
 	// ForceSendFields is a list of field names (e.g.
 	// "BroadcastStreamDelayMs") to unconditionally include in API requests.
